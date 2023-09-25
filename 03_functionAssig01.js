@@ -17,7 +17,7 @@ thought();
 console.log("=================================Step-2================================");
 
 function personalDetails(firstName,lastName,collegeName) {
-    console.log("First Name =>",firstName);
+    console.log("First Name=>",firstName);
     console.log("Last Name =>",lastName);
     console.log("My College Name =>",collegeName);
 
@@ -48,8 +48,8 @@ function addThreeValues(add1,add2,add3) {
 
     
 }
-var result=addThreeValues(10.23,600,40);
-console.log("Result of Addition is=",result);
-var result=addThreeValues("Hello","Good","Morning");
-console.log("Result of Addition is=",result);
+var res=addThreeValues(10.23,600,40);
+console.log("Result of Addition is=",res);
+var res=addThreeValues("Hello","Good","Morning");
+console.log("Result of Addition is=",res);
 console.log(`================================END======================================`);
