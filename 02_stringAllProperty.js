@@ -71,3 +71,8 @@ console.log(`-------------------------------------------------------`);
 var result17=result2.search("y");
 console.log(`search word index your==>>${result17}`);
 console.log(`----------------===================== END ==============---------------------`);
+var str="I am UI Developer"
+var result=str.split(" ");
+console.log(result);
+var res=result.length;
+console.log(res);
