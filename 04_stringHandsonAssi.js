@@ -38,3 +38,6 @@ console.log(`-------------------------------------------------------------------
 var startWith=stringTrim.startsWith("Hey");
 console.log(`String Start With "Hey" ==>> ${startWith}`);
 console.log(`=================================================== * End * =====================================================`);
+var result=10;
+var res=--result;
+console.log(res);

@@ -20,3 +20,12 @@ console.log(`After Concating Hobbies ==>> || ${concatHobbies} ||`);
 stringTemplateAssign()
 
 console.log(`================================================ END ============================================`);
+var result= function (num1) {
+ var output=num1*num1;
+ console.log(output);
+ console.log(typeof output);
+
+}
+
+result(5)
+console.log(typeof result);
