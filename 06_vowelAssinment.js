@@ -33,6 +33,6 @@ for (let index = 1; index <=5; index++) {
    
 console.log(`---------------------------------------------------------------------------------------------------`);
  }
- oddPositionChar("Hard work always pay back");
+ oddPositionChar("Hard work always pays back");
  oddPositionChar("Soon I will be UI IT Champ")
  console.log(`===================================================== * END * ======================================`);
