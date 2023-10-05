@@ -45,3 +45,7 @@ console.log(`-------------------------------------------------------------------
 var result=wordLength("Google")
 console.log(result);
 console.log(`======================================================== * END * ======================================================`);
+for (let index = 0; index < 3; index++) {
+    console.log(index);
+    
+}

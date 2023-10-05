@@ -1,7 +1,7 @@
 console.log(`============================================== Assignment 01 ========================================`);
-function countCharA(value) {
-    console.log(`Given String Is ===>> ${value}`);
-    var str=value;
+function countCharA(str) {
+    console.log(`Given String Is ===>> ${str}`);
+    
     var count=0;
     for (let index = 0; index <=str.length-1; index++) {
         var char = str.charAt(index);
