@@ -17,3 +17,4 @@ var sumOf=hobby1.length+hobby2.length+hobby3.length
 console.log(`Sum Of total number of characters==>>  ${sumOf}`);
 
 console.log(`================================================ END ============================================`);
+
