@@ -1,7 +1,7 @@
 console.log(`===================================================== Assignment-01 =======================================`);
 let bankSbi={
     bankName: "SBI Bank",
-    branch: "Pandharpur",
+    branch: "Solapur",
     accountNo: 3399157744,
     ifscCode: "SBI225588",
     customerId: 1144778
@@ -9,8 +9,8 @@ let bankSbi={
 }
 console.log(`------------------   Created Object "bankSbi"   ---------------------`);
 let bankLocation={
-street:"KBP College Road,Pandharpur",
-city:"Pandharpur",
+street:"KBP College Road,Solapur",
+city:"Solapur",
 pin:413304,
 
 }
