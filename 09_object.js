@@ -55,16 +55,16 @@ const personElon = {
 }
 console.table(personElon);
 
-// console.log(personElon.companies.tesla);
-// console.log(personElon.kidsName[0]);
-// console.log(personElon.kidsName.push("stew"));
-// console.log(personaName.companies[1]);
-// console.log(personElon.companies.tesla);
-// console.log(personElon.kidsName[0]);
-// console.log(personElon.kidsName.length);
-// // "stew"
-// personElon.kidsName.push("stew");
+console.log(personElon.companies.tesla);
+ console.log(personElon.kidsName[0]);
+console.log(personElon.kidsName.push("stew"));
+console.log(personaName.companies[1]);
+ console.log(personElon.companies.tesla);
+ console.log(personElon.kidsName[0]);
+ console.log(personElon.kidsName.length);
+ "stew"
+personElon.kidsName.push("stew");
 
-// for (const kid of personElon.kidsName) {
-//     console.log(kid);
-// }
+for (const kid of personElon.kidsName) {
+    console.log(kid);
+ }
