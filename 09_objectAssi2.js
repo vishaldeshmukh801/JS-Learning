@@ -30,7 +30,7 @@ let sbiDetails=Object.assign({},bankSbi,bankLocation,rateOfInterest)
 console.log(`Total "SBI" Bank Detail Are As Follows====>>>`);
 console.table(sbiDetails);
 console.log(`----------------------------------------------------------------------------------------------`);
-console.log(`Traversing Merged Object By Using For In Loop===>>> `);
+console.log(`Traversing Merged Object By Using For In Loop===>>>> `);
 for (const key in sbiDetails) {
    console.log(key,sbiDetails[key]);
 }
