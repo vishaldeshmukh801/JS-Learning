@@ -1,3 +1,4 @@
+console.log(`========================================================== Assignment-01 ============================================`);
 var string="   Work hard in silence lets your success noise more  ";
 console.log(`Given sentence Is ==> ${string}`);
 var result= typeof string;
@@ -69,10 +70,5 @@ console.log(`total string in lower case ==>${result16}`);
 console.log(`-------------------------------------------------------`);
 // ---------------------Searching any word available or not---------------------------
 var result17=result2.search("y");
-console.log(`search word index your==>>${result17}`);
+console.log(`search letter "y" index =>>${result17}`);
 console.log(`----------------===================== END ==============---------------------`);
-var str="I am UI Developer"
-var result=str.split(" ");
-console.log(result);
-var res=result.length;
-console.log(res);
