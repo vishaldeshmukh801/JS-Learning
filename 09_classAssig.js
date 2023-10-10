@@ -23,7 +23,7 @@ console.log(`-------------------------------------------------------------------
 const arrayOfVehicle4= new Vehicle ("Audi Q6","red","2.8L V6 TFSI","Petrol","7","250");
 console.log(`Name Of Vehicle 4 ==>>${arrayOfVehicle4.vehicleName}| Color ==>>${arrayOfVehicle4.color} | Engine Type ==>> ${arrayOfVehicle4.engineType} | Fuel Type ==> ${arrayOfVehicle4.fuelType} | Seating Capacity==>> ${arrayOfVehicle4.seatingCapacity}  | Top Speed==>> ${arrayOfVehicle4.topSpeed}` );
 console.log(`----------------------------------------------------------------------------------------------------------------------------------------`);
-const arrayOfVehicle5= new Vehicle ("Hyundai Creta","white","1497 cc and 1498 cc ","Diesel","8","250");
+const arrayOfVehicle5= new Vehicle ("Hyundai Creta","white","1497 cc and 1498 cc ","Diesel","8","150");
 console.log(`Name Of Vehicle 5 ==>>${arrayOfVehicle5.vehicleName}| Color ==>>${arrayOfVehicle5.color} | Engine Type ==>> ${arrayOfVehicle5.engineType} | Fuel Type ==> ${arrayOfVehicle5.fuelType} | Seating Capacity==>> ${arrayOfVehicle5.seatingCapacity}  | Top Speed==>> ${arrayOfVehicle5.topSpeed}` );
 console.log(`=================================================================================== Step-02 ===========================================================================`);
 class College{
@@ -35,7 +35,7 @@ this.principalName=principalName;
 
 }
 display(){
-console.log(`College Information Are As Follows==>> ${this.collegeName},${this.city},${this.departments} ,${this.principalName}`);
+console.log(`College Information Are As Follows==>> College Name: ${this.collegeName}, City : ${this.city}, Dept : ${this.departments} , Principal Name : ${this.principalName}`);
 }
 
 
