@@ -1,5 +1,15 @@
 console.log(`================================================= * Assignment To Find Duplicate Number From Array *=========================================`);
+
+
+
 let num=[11,2,33,11,55,33,2,11,77,2,1,11,24,11];
+//  Find out duplicate number 11 on which index it will repeated ?
+// Find Total count how many time it repeated ?
+
+
+
+
+
 let sum=0
 for (let index = 0; index < num.length; index++) {
     const element = num[index];
