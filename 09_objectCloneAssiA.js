@@ -19,7 +19,10 @@ console.table(personalDetail);
 console.log(`======================================================= STEP-02 =========================================`);
 let myFriends=["Raj","Vishakha","Prutvi","Mahesh"];
 Object.freeze(myFriends);
-console.log(`My Best Friends Are (After Freeze)====>>>`);
+console.log(`Freezing Friend list===>>`);
+console.log(myFriends);
+console.log(`--------------------------------------------------------------------`);
+console.log(`My Best Friends Are (After Freeze) & (Using For of loop)====>>>`);
 for (const iterator of myFriends) {
     console.log(iterator);
 }
