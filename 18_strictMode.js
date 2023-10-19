@@ -8,4 +8,3 @@ let person = {
     age: 67
 }
 console.log(person);
-delete person;
