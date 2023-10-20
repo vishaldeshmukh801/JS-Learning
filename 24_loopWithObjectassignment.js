@@ -30,6 +30,7 @@ arrayPerson.forEach( (value)=> {
          
 } );
 console.log(`--------------------------------------------- STEP-02 --------------------------------`);
+console.log(`Employee From Finance Dept===>>>>`);
 arrayPerson.forEach((value)=>{
     if (value.emp_dept=="Finance") {
         console.log(`Employee Name ====>>>${value.emp_name}   &  Department Name===>>> ${value.emp_dept}`);
@@ -46,6 +47,7 @@ arrayPerson.forEach((value)=>{
 
 );
 console.log(`--------------------------------------------- STEP-04--------------------------------`);
+console.log(`Employee Salary Above 75000 ===>>>`);
 arrayPerson.forEach((value)=>{
     if (value.emp_salary>75000) {
         console.log(`Employee Name ====>>>${value.emp_name}   &  Company Name===>>> ${value.emp_company}   &  Salary ===>> ${value.emp_salary}`);
@@ -54,6 +56,8 @@ arrayPerson.forEach((value)=>{
 
 );
 console.log(`--------------------------------------------- STEP-05--------------------------------`);
+console.log(`Employee Salary Above & Equal to 50000  and From IT Dept ===>>>`);
+
 arrayPerson.forEach((value)=>{
     if (value.emp_salary>=50000 && value.emp_dept=="IT") {
         
@@ -63,6 +67,7 @@ arrayPerson.forEach((value)=>{
 
 );
 console.log(`--------------------------------------------- STEP-06--------------------------------`);
+console.log(`Employee From Infy Company===>>>`);
 arrayPerson.forEach((value)=>{
     if (value.emp_company=="Infy") {
         console.log(`Employee Id ===>> ${value.emp_id} | Employee Name ====>>>${value.emp_name} |  Department Name===>>> ${value.emp_dept} |  Company Name===>>> ${value.emp_company}  |  Salary ===>> ${value.emp_salary}`);
