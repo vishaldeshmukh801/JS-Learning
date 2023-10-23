@@ -42,7 +42,7 @@ console.log(`Total Salary Elements in  Wipro===>> ${arrayAvgSalary1}`);
 
 let sum=0
 arrayAvgSalary1.forEach( num => {
-    sum += num/2;
+    sum += num/arrayAvgSalary1.length;
   })
   console.log(`Sum Of avg Salary Of Wipro Employee is ====>>>> ${sum}`);
   console.log(`-------------------------------------------------------- STEP-03 ----------------------------------------`);
@@ -58,7 +58,7 @@ arrayAvgSalary1.forEach( num => {
     console.log(`Total Salary Elements in Infy & Wipro===>> ${arrayAvgSalary3}`);
     let sum1=0
     arrayAvgSalary3.forEach( num => {
-        sum1 += num/4;
+        sum1 += num/arrayAvgSalary3.length;
       })
       console.log(`Sum Of avg Salary Of "Wipro" Employee Or "Infy" Employee is ====>>>> ${sum1}`);
       console.log(`============================================================= END ==============================================`);
