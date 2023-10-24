@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  DOM Manipulation</title>
+</head>
+<body>
+
+        <ul><li>first element</li>
+        <li>second element</li>
+        <li>third element</li></ul>
+    
+        <script>
+            // Children
+            console.log(document.documentElement);
+            console.log(document.head);
+            console.log(document.body.childNodes);
+            console.log(document.body.children);
+            for (const element of document.body.children) {
+                console.log(element);
+            }
+            console.log(document.body.firstElementChild);
+            console.log(document.body.lastElementChild);
+
+
+            // sibling
+            const ulTag=document.body.children[0];
+            const firstLi=ulTag.children[0];
+            console.log(firstLi);
+            const secondLi=ulTag.children[1];
+            console.log(secondLi);
+
+
+
+
+        </script>
+</body>
+
+</html>
